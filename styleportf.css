@@ -1,0 +1,8 @@
+body {background-image: url("picbgrnd3..jpeg"); background-size: cover; background-attachment: fixed; font-size: 18px;}
+p {max-width: 800px; margin: 0 auto; line-height: 1.4;}
+#mainTitle, h1 { font-size: 35px; color:red; text-align: center;}
+#mainTitle, h4 { font-size: 20px; color:red; text-align: center;}
+h5 { font-size: 20px; margin: 0; color:saddlebrown;}
+.highlight {color: brown; font-weight: bold; text-align: right; }
+.highlight:hover: {background-color: yellow; cursor:pointer;}
+p {color: charcoal; margin-top: 3.5rem; font-size: 27px;}

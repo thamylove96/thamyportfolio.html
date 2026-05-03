@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <title>Form Lab</title> 
+</head> 
+</style>
+<body> 
+  <h2>Hi! Please Enter your info below.</h2> 
+  <p>What your first name below:</p> 
+ 
+  <!-- Input box: lets the user type text --> 
+  <input type="text" id="nameInput" placeholder="Enter your frist name"> 
+  <p> What is your last name:</p>
+  <input type="text" id="nameInput" placeholder="Enter your last name"> 
+  <p> What is your phone number:</p>
+  <!-- Input box: lets the user type text -->
+  <input type="text" id="idinput" placeholder="Enter your phone number"> 
+  <p> What is your email info:</p>
+  <!-- Input box: lets the user type text -->
+  <input type="text" id="colorinput" placeholder="Enter your email"> <br>
+  
+  <!-- Button: runs a function when clicked --> 
+  <button onclick="sayGreat()">Submit</button> 
+<!-- Empty paragraph to show the result --> 
+  <p id="output"></p> 
+
+  <!-- JavaScript will go here --> 
+  <script> 
+    // The script section is where we write our JavaScript code 
+function sayGreat() { 
+   // Step 1: Find the input box and get what the user typed 
+  let name = document.getElementById("nameInput").value; 
+  
+  // Step 2: Find the output paragraph and change its text 
+  document.getElementById("output").textContent = "Great " + name + "!" + " Thank you for providing your info"  + "."; }
+
+</script> 
+</body> 
+</html> 
